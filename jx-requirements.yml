@@ -20,6 +20,8 @@ cluster:
   provider: openshift
   registry: "ghcr.io"
   zone: ""
+  ingress:
+    domain: apps.aws-wzu01t.ocp-test.sbb-aws.net
 environments:
 - key: dev
   owner: ""
